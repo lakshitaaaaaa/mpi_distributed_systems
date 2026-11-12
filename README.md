@@ -112,10 +112,8 @@ composing. It enters the shared chat history after the sender presses Enter.
 
 ## Screenshots of test results
 
-<img width="488" height="380" alt="Screenshot 2026-11-12 at 11 04 09 PM" src="https://github.com/user-attachments/assets/273aa35e-81f3-4c7f-b47b-9d337cd854fb" />
-
-<img width="495" height="374" alt="Screenshot 2026-11-12 at 11 04 18 PM" src="https://github.com/user-attachments/assets/13a6a8ad-7c9b-46f5-8e43-db8fdeda96d5" />
-
+![terminal of process 1](screenshots/pe1.png)
+![terminal of process 2](screenshots/pe2.png)
 
 ## Run MPI processes across two computers
 
