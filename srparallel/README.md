@@ -101,10 +101,7 @@ PE 2> I'm doing well, thanks!
 The text after each `PE …>` prompt is what that process is currently
 composing. It enters the shared chat history after the sender presses Enter.
 
-## Screenshots
-
-Add screenshots of the running PE 1 and PE 2 terminals here. For example, save
-them under `screenshots/` in the project and embed them with Markdown:
+## Screenshots of test results
 
 <img width="488" height="380" alt="Screenshot 2026-11-12 at 11 04 09 PM" src="https://github.com/user-attachments/assets/273aa35e-81f3-4c7f-b47b-9d337cd854fb" />
 
