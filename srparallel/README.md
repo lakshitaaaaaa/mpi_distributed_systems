@@ -76,6 +76,41 @@ macOS. It is not a general MPICH path. If XQuartz was just installed and
 - Use Backspace to edit the line before sending.
 - Type `/quit` and press Enter to close the chat on both processes.
 
+## Example session
+
+Suppose PE 1 sends `Hello, PE 2!`, then PE 2 replies `Hi, PE 1!`. Both
+terminals show the same chat history. The input line remains at the bottom of
+each terminal and belongs to that PE:
+
+**PE 1 terminal**
+
+```text
+PE 1: Hello, PE 2!
+PE 2: Hi, PE 1!
+PE 1> How are you?
+```
+
+**PE 2 terminal**
+
+```text
+PE 1: Hello, PE 2!
+PE 2: Hi, PE 1!
+PE 2> I'm doing well, thanks!
+```
+
+The text after each `PE …>` prompt is what that process is currently
+composing. It enters the shared chat history after the sender presses Enter.
+
+## Screenshots
+
+Add screenshots of the running PE 1 and PE 2 terminals here. For example, save
+them under `screenshots/` in the project and embed them with Markdown:
+
+```markdown
+![PE 1 chat window](screenshots/pe1-chat.png)
+![PE 2 chat window](screenshots/pe2-chat.png)
+```
+
 ## Run MPI processes across two computers
 
 To distribute the two MPI processes across two computers, install compatible
