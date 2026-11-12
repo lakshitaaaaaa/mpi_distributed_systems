@@ -107,14 +107,9 @@ Add screenshots of the running PE 1 and PE 2 terminals here. For example, save
 them under `screenshots/` in the project and embed them with Markdown:
 
 <img width="488" height="380" alt="Screenshot 2026-11-12 at 11 04 09 PM" src="https://github.com/user-attachments/assets/273aa35e-81f3-4c7f-b47b-9d337cd854fb" />
+
 <img width="495" height="374" alt="Screenshot 2026-11-12 at 11 04 18 PM" src="https://github.com/user-attachments/assets/13a6a8ad-7c9b-46f5-8e43-db8fdeda96d5" />
 
-
-
-```markdown
-![PE 1 chat window](screenshots/pe1-chat.png)
-![PE 2 chat window](screenshots/pe2-chat.png)
-```
 
 ## Run MPI processes across two computers
 
