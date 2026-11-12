@@ -1,10 +1,19 @@
-# Two-Process MPI Chat
+# MPI Chat
 
 This project is a small C chat program built with the Message Passing Interface
 (MPI). It starts exactly two MPI processes, called PE 1 and PE 2 in the
 interface. Each process has a chat history above a fixed input line at the
 bottom of its terminal. Messages appear in the sender's history and in the
 other process's history as soon as they are sent and received.
+
+## Project scope
+
+The assignment describes System 1 and System 2 as separate computers connected
+over a network. For development and testing, this implementation runs two MPI
+processes on one computer. PE 1 and PE 2 represent the two participants in the
+chat; they do not represent two physical devices in the local test. This
+demonstrates MPI message exchange between processes, but does not by itself
+verify a run across two networked computers.
 
 ## How the program works
 
